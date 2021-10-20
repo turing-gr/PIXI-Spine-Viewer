@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import SpineAnimationSelect from './SpineAnimationSelect.vue';
+import SpineAnimationSelect from './PixiSpineAnimationSelect.vue';
 
 export default {
     name: 'PixiSpineTools',

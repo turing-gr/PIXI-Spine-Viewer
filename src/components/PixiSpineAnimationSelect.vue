@@ -67,7 +67,7 @@
 </template>
 
 <script>
-import { scaleXCurrentPlayingAnimation, scaleYCurrentPlayingAnimation, changeAlphaCurrentPlayingAnimation, destroyAnimation, playAnimation, pauseCurrentPlayingAnimation } from '../../src/AppPixiLoader';
+import { scaleXCurrentPlayingAnimation, scaleYCurrentPlayingAnimation, changeAlphaCurrentPlayingAnimation, destroyAnimation, playAnimation, pauseCurrentPlayingAnimation } from '../AppPixiLoader';
 
 export default {
     name: 'SpineAnimationSelect',

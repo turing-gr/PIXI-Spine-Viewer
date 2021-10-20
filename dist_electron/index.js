@@ -1788,7 +1788,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var elec
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__(/*! C:\\Users\\Pantelis-Arsenios\\Desktop\\Zeus\\casino-v3-tools\\pixi-spine-viewer\\src\\background.js */\"./src/background.js\");\n\n\n//# sourceURL=webpack:///multi_./src/background.js?");
+eval("module.exports = __webpack_require__(/*! C:\\Users\\Pantelis-Arsenios\\Desktop\\PIXI-Spine-Viewer\\src\\background.js */\"./src/background.js\");\n\n\n//# sourceURL=webpack:///multi_./src/background.js?");
 
 /***/ }),
 

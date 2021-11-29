@@ -133,7 +133,9 @@ export default {
           json_file_name: this.json_file_name, 
           selected_animation: this.selected_animation,
           current_animation_play_loop: this.checked,
-          animation_speed: this.animation_speed
+          animation_speed: this.animation_speed,
+          scale_x_value: this.scale_x_value,
+          scale_y_value: this.scale_y_value
         };
         playAnimation(aux_object);
         this.pause_button_clicked = true;

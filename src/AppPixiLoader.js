@@ -21,8 +21,9 @@ export function playAnimation(aux_object) {
     function onAssetsLoaded(loader, resources) {
         const symbol_animation = new Spine(resources[final_json_file_name].spineData);
         symbol_animation.x = app.screen.width-app.screen.width / 2;
-        symbol_animation.y = app.screen.height-app.screen.height / 2 - 70;
-        symbol_animation.scale.set(1);
+        symbol_animation.y = app.screen.height-app.screen.height / 2 - 30;
+        symbol_animation.scale._x = aux_object.scale_x_value;
+        symbol_animation.scale._y = aux_object.scale_y_value;
         symbol_animation.state.timeScale = Number(aux_object.animation_speed);
         symbol_animation.state.setAnimation(0, aux_object.selected_animation, aux_object.current_animation_play_loop);
         app.stage.addChild(symbol_animation);
